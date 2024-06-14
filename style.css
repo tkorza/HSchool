@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+
+body {
+    width: 1120px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    padding-top: 37px;
+    align-items: center;
+}
+
+header h2 {
+    font: 900 30px Mulish;
+    line-height: 37.65px;
+    color: #001A49;
+}
+
+header .wrapper {
+    display: flex;
+    padding-left: 125px;
+    padding-right: 220px;
+    gap: 37px;
+}
+
+header p {
+    font: 700 16px Mulish;
+    line-height: 20.08px;
+    color: #001A49;
+}
+
+header button {
+    font: 700 16px Mulish;
+    line-height: 20.08px;
+    color: #FFFFFF;
+    width: 147px;
+    height: 50px;
+    background: linear-gradient(44.11deg, #8FBBE5 15.75%, #3D75BF 84.63%);
+    border-radius: 45px;
+    border: none;
+}
+
+.preview {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 180px;
+}
+
+.preview img {
+    width: 590px;
+    height: 360px;
+    top: 0px;
+    left: 133px;
+    gap: 0px;
+    border-radius: 20px 0px 0px 20px;
+    opacity: 0px;
+    position: relative;
+}
+
+.preview .left-part-preview {
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+}
+
+.preview .left-part-preview h1 {
+    font: 800 60px Mulish;
+    line-height: 68px;
+    color: #001A49;
+}
+
+.preview .left-part-preview p {
+    font: 400 20px Mulish;
+    line-height: 30px;
+    color: #4F596A;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+
+.preview .left-part-preview button {
+    font: 700 16px Mulish;
+    line-height: 20.08px;
+    color: #FFFFFF;
+    width: 206px;
+    height: 69px;
+    background: linear-gradient(44.11deg, #8FBBE5 15.75%, #3D75BF 84.63%);
+    border-radius: 45px;
+    border: none;
+}
+
+.info {
+    height: 308px;
+}
+
+.info .result {
+    display: flex;
+    justify-content: center;
+    margin-top: 203px;
+    height: 172px;
+    border: 1px solid #E7EAEB;
+    border-radius: 20px;
+    background: #FFFFFF;
+
+}
+
+.info .result div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.result div:nth-child(2) {
+    border-left: 1px solid #E7EAEB;
+    border-right: 1px solid #E7EAEB;
+}
+
+.info .result h2 {
+    font: 800 40px Mulish;
+    color: #001A49;
+    text-align: center;
+
+}
+
+.info .result p {
+    font: 400 16px Mulish;
+    color: #4F596A;
+    text-align: center;
+}
+
+.info img {
+    position: relative;
+    z-index: -100;
+    width: 288px;
+    height: 288px;
+    bottom: 152px;
+    right: 206px;
+}
+
+.advantages {
+    margin: 0;
+    padding: 0;
+}
+
+.advantages h1 {
+    font: 800 46px Mulish;
+    height: 69px;
+    text-align: center;
+    color: #001A49;
+    margin-top: 58px;
+}
+
+.advantages p {
+    font: 400 20px Mulish;
+    height: 60px;
+    text-align: center;
+    color: #4F596A;
+    padding-top: 1px;
+}
+
+.advantages .wrapper-for-adventages {
+    display: flex;
+    flex-direction: column;
+    padding-top: 61px;
+    gap: 30px;
+}
+
+.advantages .wrapper-for-adventages .cap {
+    display: flex;
+    background: #EEF7FF;
+    height: 172px;
+    border-radius: 20px;
+}
+
+.advantages .wrapper-for-adventages .cap img {
+    width: 64px;
+    height: 64px;
+    padding: 39px 20px 0 46px;
+}
+
+.advantages .wrapper-for-adventages .cap h2 {
+    font: 800 24px Mulish;
+    line-height: 24px;
+    text-align: left;
+    color: #001A49;
+    padding-top: 39px;
+    padding-bottom: 20px;
+}
+
+.advantages .wrapper-for-adventages .cap p {
+    font: 400 16px Mulish;
+    line-height: 24px;
+    text-align: left;
+    color: #4F596A;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 619px;
+    height: 321px;
+    margin: 122px auto 0 auto;
+}
+
+.feedback img {
+    width: 153px;
+    height: 56x;
+}
+
+.feedback h1 {
+    font: 800 50px Mulish;
+    line-height: 150px;
+    color: #001A49;
+}
+
+.feedback button {
+    font: 700 16px Mulish;
+    line-height: 20.08px;
+    color: #FFFFFF;
+    width: 206px;
+    height: 69px;
+    background: linear-gradient(44.11deg, #8FBBE5 15.75%, #3D75BF 84.63%);
+    border-radius: 45px;
+    border: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 106px;
+    align-items: center;
+    margin-bottom: 85px;
+}
+
+footer .leftpart {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .leftpart div {
+    display: flex;
+}
+
+footer img {
+    width: 78.96px;
+    height: 56px;
+}
+
+footer .leftpart h2 {
+    font: 800 37px Mulish;
+    line-height: 56px;
+    color: #02070f;
+    padding-left: 25px;
+}
+
+footer p {
+    font: 500 27px Mulish;
+    color: #707070;
+}
