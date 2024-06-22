@@ -11,9 +11,15 @@ body {
 
 header {
     display: flex;
-    padding-top: 37px;
+    padding: 37px;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    width: 96%;
+    background-color: white;
+    left: 0;
+    z-index: 500;
+    
 }
 
 header h2 {
@@ -214,8 +220,8 @@ header button {
 
 .feedback h1 {
     font: 800 50px Mulish;
-    line-height: 150px;
     color: #001A49;
+    padding-bottom: 20px;
 }
 
 .feedback button {
@@ -265,7 +271,84 @@ footer p {
     color: #707070;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 900px){
+    body{
+       padding: 0 30px;
+    }
+    .preview img {
+        display: none;
+    }
+    .preview .left-part-preview{
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+    }
+}
+
+@media (max-width:840px){
+    .wrapper p{
+        display: none;
+    }
+}
+@media ( max-width: 680px){
+    .feedback{
+        font-size: 30px;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .feedback img{
+        display: none;
+    }
+
+}
+@media ( max-width: 610px){
+    footer{
+        flex-direction: column;
+    }
+}
+@media(max-width:566px){
+    .preview h1{
+        padding-top: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width: 900px) {
     body {
         padding: 0 30px;
     }
@@ -335,4 +418,4 @@ footer p {
         font: 800 30px Mulish;
         text-align: center;
     }
-}
+} */
